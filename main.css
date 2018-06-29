@@ -24,17 +24,17 @@ body {
   background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70%;
   background-size: cover;
   display: table;
-  padding: 40% 0;
+  padding: 50% 0;
 }
 
 .main-title {
   background-color: rgba(0, 0, 0, 0.45);
   text-align: center;
-  display: table-cell;
-  vertical-align: middle;
+  display: block;
   line-height: 2.5rem;
   letter-spacing: .1rem;
   font-weight: bold;
+  margin-top: 30vh;
 }
 
 .tagline {
@@ -44,17 +44,16 @@ body {
 }
 
 .headline {
-  font-size: 3rem;
+  font: 3rem 'Great Vibes', cursive;
   color: var(--goldColor);
-  font-family: 'Great Vibes', cursive;
   padding-top :0.7rem;
 }
 
 .date {
-  font-size: 1.2rem;
+  font: 1.2rem 'Libre Baskerville', serif;
   color: var(--whiteColor);
-  font-family: 'Libre Baskerville', serif;
 }
+
 #header-hr {
   color: var(--goldColor);
   width: 150px;
@@ -72,8 +71,7 @@ locations {
 }
 
 .locations-subtitle {
-  font-family: 'Great Vibes', cursive;
-  font-size: 3rem;
+  font: 3rem 'Great Vibes', cursive;
   color: var(--greyColor);
   text-align: center;
   padding: 3rem;
@@ -86,8 +84,7 @@ locations {
 }
 
 .locations-name {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1.2rem;
+  font: 1.2rem 'Libre Baskerville', serif;
   color: var(--greyColor);
   text-align: center;
   font-weight: bold;
@@ -104,8 +101,7 @@ locations {
   margin: 1rem auto;
 }
 .adress {
-  font-family: 'Muli', sans-serif;
-  font-size: 1rem;
+  font: 1rem 'Muli', sans-serif;
   color: var(--greyColor);
   text-align: center;
   padding: 1rem;
@@ -130,24 +126,21 @@ program {
 }
 
 #program-h1 {
-  font-family: 'Great Vibes', cursive;
-  font-size: 3rem;
+  font: 3rem 'Great Vibes', cursive;
   color: var(--goldColor);
   text-align: center;
   padding: 3rem;
 }
 
 #program-h2 {
-  font-family: 'Muli', sans-serif;
-  font-size: 1rem;
+  font: 1rem 'Muli', sans-serif;
   color: var(--goldColor);
   font-style: italic;
   padding-bottom: 1rem;
 }
 
 .time {
-  font-family: 'Muli', sans-serif;
-  font-size: 1rem;
+  font: 1rem 'Muli', sans-serif;
   color: var(--goldColor);
   line-height: 1.5rem;
 }
@@ -161,14 +154,12 @@ program {
 }
 
 #gifts-h1 {
-  font-family: 'Great Vibes', cursive;
-  font-size: 3rem;
+  font: 3rem 'Great Vibes', cursive;
   padding: 3rem;
 }
 
 .gifts-p {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1rem;
+  font: 1rem 'Libre Baskerville', serif;
 }
 
 #gifts-img {
@@ -186,23 +177,20 @@ questions {
 #questions-wrapper {
   background-color: hsla(100,0%,0%,.6);
   color: var(--goldColor);
-  font-family: 'Muli', sans-serif;
-  font-size: 1rem;
+  font: 1rem 'Muli', sans-serif;
   line-height: 1.5rem;
   padding-bottom: 1rem;
 }
 
 #questions-h1 {
-  font-family: 'Great Vibes', cursive;
-  font-size: 3rem;
+  font: 3rem 'Great Vibes', cursive;
   color: var(--goldColor);
   text-align: center;
   padding: 3rem;
 }
 
 .question-h2 {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1.5rem;
+  font: 1,5rem 'Libre Baskerville', serif;
   text-align: center;
   padding: 1rem;
 }
@@ -223,15 +211,15 @@ questions {
   width: 100px;
   height: 3px;
   border: 0 none;
-  background-color: #d2ba87;
+  background-color: var(--goldColor);
 }
 
 .question-link {
-  color: #bd806e;
+  color: var(--darkorangeColor);
 }
 
 .question-link:hover {
-  color: #eda087;
+  color: var(--lightorangeColor);
 }
 
 
@@ -243,14 +231,12 @@ questions {
   color: var(--greyColor);
 }
 #contact {
-  font-family: 'Great Vibes', cursive;
-  font-size: 3rem;
+  font: 3rem 'Great Vibes', cursive;
   padding: 3rem;
 }
 
 .contact-p {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1rem;
+  font: 1rem 'Libre Baskerville', serif;
   line-height: 1.5rem;
   padding-bottom: 1rem;
 }
@@ -269,8 +255,7 @@ footer {
   width: 100%;
   height: 4rem;
   background-color: hsla(100,0%,0%,.6);
-  font-family: 'Muli', sans-serif;
-  font-size: .8rem;
+  font: .8rem 'Muli', sans-serif;
   line-height: 1.5rem;
   color: var(--whiteColor);
   text-align: center;
@@ -288,7 +273,7 @@ footer {
   .main-title {
     display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 40%;
   }
   
   .ceremony, .photos, .party, #travel, #food, #other {
@@ -309,6 +294,10 @@ footer {
   
   .question-h2 {
     text-align: left;
+  }
+  
+  .cover {
+    background-position: 70%;
   }
 }
 
